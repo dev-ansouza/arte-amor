@@ -1,0 +1,57 @@
+/* corpo da page */
+body {
+
+}
+
+/* Alterando font Barrio para uma modificada */
+@font-face {
+    font-family: Barrio;
+    src: url(../../../fonts/inked-god.ttf)
+}
+
+/* Cabeçalho dentro do body */
+.header {
+    position: fixed;
+    z-index:999;
+    left:0%;
+    right: 0%;
+    top:0;
+}
+
+.body-list {
+    margin-top: 70px;
+}
+
+/* Cor do header */
+.mat-toolbar-header {
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(140, 0, 255, 0.5));
+}
+
+/* Span e titulo */
+.title {
+    font-family: barrio;
+    font-size: 160%;
+    color: white;
+    margin: auto;
+}
+
+/* Card */
+.card {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 60%;
+}
+
+/* Titulo do card */
+.title-card {
+    font-size: 80%;
+    margin-left: -10%;
+}
+
+/* Subtitulo do card */
+.subtitle-card {
+    font-size: 70%;
+    margin-left: -10%;
+}
